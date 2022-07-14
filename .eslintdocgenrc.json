@@ -1,0 +1,5 @@
+{
+    "docPath": "docs/rules/{name}.md",
+    "testPath": "tests/rules/{name}.md",
+    "rulePath": "rules/rules/{name}.md"
+}

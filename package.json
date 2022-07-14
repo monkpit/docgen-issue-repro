@@ -1,0 +1,19 @@
+{
+  "name": "docgen-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "docs": "DOCGEN=1 jest",
+    "postinstall": "cd node_modules/fake-module && npm install"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/eslint-parser": "^7.18.2",
+    "eslint": "8",
+    "eslint-docgen": "^0.7.0",
+    "jest": "^28.1.3"
+  },
+  "babel": {}
+}
