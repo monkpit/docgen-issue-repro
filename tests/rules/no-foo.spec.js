@@ -1,5 +1,5 @@
 const rule = require("../../src/rules/no-foo");
-const { RuleTester } = require("eslint-docgen").RuleTester;
+const { RuleTester } = require("eslint-docgen");
 
 const ruleTester = new RuleTester();
 ruleTester.run("no-foo", rule, {
